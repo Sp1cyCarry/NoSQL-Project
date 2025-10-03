@@ -7,6 +7,19 @@ NoSQL-Project/appsettings.Development.json
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+############################
+# Copilot / IntelliCode / AI caches
+############################
+# VS Code / Copilot
+.vscode/
+.vscode-copilot/
+.vscode-intellicode/
+
+# General cache files
+*.tlog
+*.cache
+*.db
+
 # User-specific files
 *.rsuser
 *.suo
