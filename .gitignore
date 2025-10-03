@@ -1,5 +1,37 @@
+# Build outputs
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+out/
+
+# NuGet packages (if using restore, these can be excluded)
+packages/
+
+# Rider project files
+*.iml
+.idea/
+.rider/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ReSharper caches
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / credentials
+appsettings.json
+appsettings.*.json
+
+# Node modules if any frontend tooling is used
+node_modules/
